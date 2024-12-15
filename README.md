@@ -4,7 +4,7 @@ A RAG system consists of a retriever and a large language model. In response to 
 
 
 To simplify the creation of the RAG system, a modular, Lego-like design was developed.
-![legoRAG](https://github.com/user-attachments/assets/040e9b02-1071-41d5-a724-4c2aa87b71eb)
+![legoRAG|400](https://github.com/user-attachments/assets/040e9b02-1071-41d5-a724-4c2aa87b71eb)
 
 
 
@@ -14,7 +14,8 @@ However, when a benchmark is not available, it must be created from scratch usin
 
 ## Benchmark creation proposal: Generative Universal Evaluation LLM and Information retrieval
 To accomplish this effectively, we acknowledge that manually creating hundreds of question-context-answer examples from documents is a time-consuming and labor-intensive task. Therefore, utilizing a large language model (LLM) to generate synthetic test data offers a more efficient solution that reduces both time and effort.
-<img width="478" alt="Screenshot 2024-12-15 alle 10 06 11" src="https://github.com/user-attachments/assets/d8ba5947-29dd-411d-84b4-4d8579ed29d1" />
+
+<img width="478" alt="Meme generation" src="https://github.com/user-attachments/assets/d8ba5947-29dd-411d-84b4-4d8579ed29d1" />
 
 Therefore, to facilitate the benchmark creation process, an automated method was developed.
 
@@ -33,6 +34,5 @@ if the lenght of the chunks is greater than a treeshold;
 • retrieved_id: the chunk ID retrieved by the retriever system;
 • score: 1 if the retrieved context is equals to the context, 0 otherwise;
 
-<img width="665" alt="Screenshot 2024-12-15 alle 10 36 12" src="https://github.com/user-attachments/assets/40e70155-04f4-43fa-845f-a35168a67406" />
-
+<img width="700" alt="Algoritm for benchmark generation" src="https://github.com/user-attachments/assets/40e70155-04f4-43fa-845f-a35168a67406" />
 
