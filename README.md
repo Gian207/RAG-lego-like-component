@@ -15,7 +15,8 @@ However, when a benchmark is not available, it must be created from scratch usin
 ## Benchmark creation proposal: Generative Universal Evaluation LLM and Information retrieval
 To accomplish this effectively, we acknowledge that manually creating hundreds of question-context-answer examples from documents is a time-consuming and labor-intensive task. Therefore, utilizing a large language model (LLM) to generate synthetic test data offers a more efficient solution that reduces both time and effort.
 
-<img width="478" alt="Meme generation" src="https://github.com/user-attachments/assets/d8ba5947-29dd-411d-84b4-4d8579ed29d1" />
+<img width="553" alt="Screenshot 2024-12-15 alle 20 20 38" src="https://github.com/user-attachments/assets/985bc046-96a7-463b-9b45-f7eb30931866" />
+
 
 Therefore, to facilitate the benchmark creation process, an automated method was developed.
 
