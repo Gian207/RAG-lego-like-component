@@ -5,7 +5,7 @@ A RAG system consists of a retriever and a large language model. In response to 
 
 To simplify the creation of the RAG system, a modular, Lego-like design was developed.
 
-<img width="300" height="500" alt="Meme generation" src="https://github-production-user-asset-6210df.s3.amazonaws.com/96686091/395840772-040e9b02-1071-41d5-a724-4c2aa87b71eb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241215T094625Z&X-Amz-Expires=300&X-Amz-Signature=a209fcbe4ee1e70360844978f99a22cde42fe25978b931395f04329988a9ae84&X-Amz-SignedHeaders=host" />
+<img width="300" alt="Meme generation" src="https://github-production-user-asset-6210df.s3.amazonaws.com/96686091/395840772-040e9b02-1071-41d5-a724-4c2aa87b71eb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241215T094625Z&X-Amz-Expires=300&X-Amz-Signature=a209fcbe4ee1e70360844978f99a22cde42fe25978b931395f04329988a9ae84&X-Amz-SignedHeaders=host" />
 
 
 # Rag-eval
